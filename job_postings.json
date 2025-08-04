@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "title": "Java Developer",
+    "skills_required": ["java", "spring boot", "sql", "git"],
+    "description": "Looking for backend developer experienced in Java and Spring Boot."
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developer",
+    "skills_required": ["html", "css", "javascript", "react"],
+    "description": "UI developer needed with React and JS expertise."
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Developer",
+    "skills_required": ["java", "react", "sql", "spring boot"],
+    "description": "Work on both backend and frontend of enterprise applications."
+  },
+  {
+    "id": 4,
+    "title": "Python Developer",
+    "skills_required": ["python", "django", "rest api", "postgresql"],
+    "description": "Developer with Django framework experience preferred."
+  },
+  {
+    "id": 5,
+    "title": "Android Developer",
+    "skills_required": ["java", "kotlin", "android sdk", "firebase"],
+    "description": "Create and maintain Android mobile applications."
+  },
+  {
+    "id": 6,
+    "title": "iOS Developer",
+    "skills_required": ["swift", "xcode", "ios sdk", "firebase"],
+    "description": "iOS developer with experience in Swift required."
+  },
+  {
+    "id": 7,
+    "title": "DevOps Engineer",
+    "skills_required": ["aws", "docker", "kubernetes", "jenkins"],
+    "description": "Automation and CI/CD pipeline development using cloud technologies."
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Engineer",
+    "skills_required": ["python", "tensorflow", "scikit-learn", "pandas"],
+    "description": "Develop and deploy ML models using Python."
+  },
+  {
+    "id": 9,
+    "title": "Data Analyst",
+    "skills_required": ["sql", "excel", "tableau", "python"],
+    "description": "Analyze datasets to provide business insights."
+  },
+  {
+    "id": 10,
+    "title": "Data Engineer",
+    "skills_required": ["python", "spark", "aws", "hadoop"],
+    "description": "Build and manage scalable data pipelines."
+  },
+  {
+    "id": 11,
+    "title": "QA Engineer",
+    "skills_required": ["selenium", "java", "testng", "jira"],
+    "description": "Automation testing with Selenium required."
+  },
+  {
+    "id": 12,
+    "title": "Cybersecurity Analyst",
+    "skills_required": ["network security", "siem", "firewall", "linux"],
+    "description": "Monitor and prevent threats in enterprise networks."
+  },
+  {
+    "id": 13,
+    "title": "Cloud Engineer",
+    "skills_required": ["aws", "azure", "terraform", "linux"],
+    "description": "Cloud infrastructure management and automation."
+  },
+  {
+    "id": 14,
+    "title": "UI/UX Designer",
+    "skills_required": ["figma", "adobe xd", "html", "css"],
+    "description": "Design intuitive interfaces for web and mobile."
+  },
+  {
+    "id": 15,
+    "title": "React Developer",
+    "skills_required": ["javascript", "react", "redux", "html"],
+    "description": "Front-end development using React and Redux."
+  },
+  {
+    "id": 16,
+    "title": "Angular Developer",
+    "skills_required": ["angular", "typescript", "rxjs", "html"],
+    "description": "Develop frontend using Angular framework."
+  },
+  {
+    "id": 17,
+    "title": "Backend Developer",
+    "skills_required": ["node.js", "express", "mongodb", "javascript"],
+    "description": "Develop backend services using Node.js."
+  },
+  {
+    "id": 18,
+    "title": "Project Manager",
+    "skills_required": ["agile", "scrum", "jira", "communication"],
+    "description": "Manage software projects and coordinate with teams."
+  },
+  {
+    "id": 19,
+    "title": "Tech Support Engineer",
+    "skills_required": ["troubleshooting", "linux", "windows", "sql"],
+    "description": "Provide technical support to end-users and clients."
+  },
+  {
+    "id": 20,
+    "title": "Salesforce Developer",
+    "skills_required": ["apex", "salesforce", "visualforce", "soql"],
+    "description": "Develop custom Salesforce solutions."
+  },
+  {
+    "id": 21,
+    "title": "Business Analyst",
+    "skills_required": ["requirement gathering", "uml", "sql", "communication"],
+    "description": "Bridge gap between business and technical teams."
+  },
+  {
+    "id": 22,
+    "title": "Database Administrator",
+    "skills_required": ["mysql", "oracle", "sql", "performance tuning"],
+    "description": "Manage and optimize databases."
+  },
+  {
+    "id": 23,
+    "title": "WordPress Developer",
+    "skills_required": ["php", "wordpress", "html", "css"],
+    "description": "Customize WordPress websites and themes."
+  },
+  {
+    "id": 24,
+    "title": "Game Developer",
+    "skills_required": ["unity", "c#", "blender", "game design"],
+    "description": "Build 2D and 3D games for multiple platforms."
+  },
+  {
+    "id": 25,
+    "title": "System Administrator",
+    "skills_required": ["linux", "shell scripting", "networking", "windows"],
+    "description": "Maintain servers and IT infrastructure."
+  },
+  {
+    "id": 26,
+    "title": "AI Engineer",
+    "skills_required": ["python", "nlp", "keras", "deep learning"],
+    "description": "Develop AI models for NLP applications."
+  },
+  {
+    "id": 27,
+    "title": "Blockchain Developer",
+    "skills_required": ["solidity", "ethereum", "smart contracts", "web3.js"],
+    "description": "Develop decentralized apps and smart contracts."
+  },
+  {
+    "id": 28,
+    "title": "Technical Writer",
+    "skills_required": ["documentation", "markdown", "git", "api"],
+    "description": "Write and maintain technical documentation."
+  },
+  {
+    "id": 29,
+    "title": "Network Engineer",
+    "skills_required": ["ccna", "routing", "switching", "firewall"],
+    "description": "Setup and troubleshoot network configurations."
+  },
+  {
+    "id": 30,
+    "title": "PHP Developer",
+    "skills_required": ["php", "laravel", "mysql", "html"],
+    "description": "Backend development using PHP and Laravel."
+  },
+  {
+    "id": 31,
+    "title": "Flutter Developer",
+    "skills_required": ["flutter", "dart", "firebase", "android"],
+    "description": "Cross-platform mobile application development."
+  },
+  {
+    "id": 32,
+    "title": "ETL Developer",
+    "skills_required": ["informatica", "sql", "data warehouse", "etl"],
+    "description": "Design and implement ETL workflows."
+  },
+  {
+    "id": 33,
+    "title": "Scrum Master",
+    "skills_required": ["scrum", "agile", "jira", "facilitation"],
+    "description": "Lead Agile ceremonies and remove team blockers."
+  },
+  {
+    "id": 34,
+    "title": "SEO Specialist",
+    "skills_required": ["seo", "google analytics", "semrush", "html"],
+    "description": "Optimize websites for better search rankings."
+  },
+  {
+    "id": 35,
+    "title": "Penetration Tester",
+    "skills_required": [
+      "burp suite",
+      "kali linux",
+      "network security",
+      "python"
+    ],
+    "description": "Identify and exploit vulnerabilities in systems."
+  },
+  {
+    "id": 36,
+    "title": "Content Writer",
+    "skills_required": ["seo", "writing", "wordpress", "creativity"],
+    "description": "Write engaging content for websites and blogs."
+  },
+  {
+    "id": 37,
+    "title": "Software Architect",
+    "skills_required": [
+      "design patterns",
+      "architecture",
+      "cloud",
+      "microservices"
+    ],
+    "description": "Define architecture and technical standards."
+  },
+  {
+    "id": 38,
+    "title": "Game Tester",
+    "skills_required": [
+      "bug reporting",
+      "gameplay testing",
+      "jira",
+      "attention to detail"
+    ],
+    "description": "Test game mechanics and report issues."
+  },
+  {
+    "id": 39,
+    "title": "Embedded Systems Engineer",
+    "skills_required": ["c", "c++", "embedded linux", "microcontrollers"],
+    "description": "Develop firmware for embedded devices."
+  },
+  {
+    "id": 40,
+    "title": "Data Scientist",
+    "skills_required": ["python", "machine learning", "sql", "matplotlib"],
+    "description": "Analyze and model data to drive insights."
+  }
+]

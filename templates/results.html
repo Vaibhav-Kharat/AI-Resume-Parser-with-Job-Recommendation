@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume Parsing Result</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        background-color: #ffffff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 30px;
+      }
+
+      .card h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 25px;
+      }
+
+      .card h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #4caf50;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+      }
+
+      .card ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .card ul li {
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .card ul li strong {
+        color: #555;
+      }
+
+      .job-section {
+        width: 100%;
+        max-width: 1200px;
+      }
+
+      .job-section h2 {
+        color: #4caf50;
+        margin-bottom: 20px;
+      }
+
+      .job-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      .job-card {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s ease;
+      }
+
+      .job-card:hover {
+        transform: translateY(-4px);
+      }
+
+      .job-card h3 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      .job-card p {
+        margin: 5px 0;
+      }
+
+      .skills {
+        font-size: 14px;
+        color: #666;
+      }
+
+      pre {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 14px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Gemini Extracted Data Card -->
+    <div class="card">
+      <h1>Resume Parsing Results</h1>
+      <h2>Data from Gemini</h2>
+
+      {% if gpt_data %} {% if gpt_data.raw %}
+      <pre>{{ gpt_data.raw }}</pre>
+      {% else %}
+      <ul>
+        <li><strong>Name:</strong> {{ gpt_data.name }}</li>
+        <li><strong>Email:</strong> {{ gpt_data.email }}</li>
+        <li><strong>Phone:</strong> {{ gpt_data.phone }}</li>
+        <li><strong>Experience:</strong> {{ gpt_data.experience }}</li>
+        <li><strong>Objective:</strong> {{ gpt_data.objective }}</li>
+        <li><strong>Skills:</strong> {{ gpt_data.skills }}</li>
+      </ul>
+      {% endif %} {% else %}
+      <p>No data received from Gemini.</p>
+      {% endif %}
+    </div>
+
+    <!-- Recommended Jobs in 3-column layout  -->
+    {% if recommended_jobs %}
+    <div class="job-section">
+      <h2>Recommended Jobs (Based on Your Skills)</h2>
+      <div class="job-grid">
+        {% for job in recommended_jobs %}
+        <div class="job-card">
+          <h3>{{ job.title }}</h3>
+          <p><strong>Description:</strong> {{ job.description }}</p>
+          <p class="skills">
+            <strong>Required Skills:</strong> {{ job.skills_required | join(",
+            ") }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </body>
+</html>
