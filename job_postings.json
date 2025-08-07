@@ -1,257 +1,203 @@
 [
   {
     "id": 1,
-    "title": "Java Developer",
-    "skills_required": ["java", "spring boot", "sql", "git"],
-    "description": "Looking for backend developer experienced in Java and Spring Boot."
+    "title": "Avionics Technician",
+    "qualification": "Diploma in Avionics, IIAEIT Pune",
+    "skills_required": [
+      "Instrument repair",
+      "Circuit troubleshooting",
+      "Technical documentation"
+    ],
+    "description": "",
+    "experience": "4 years with HAL as Avionics Maintenance Engineer",
+    "certifications": ["AME License - B2 Category"]
   },
   {
     "id": 2,
-    "title": "Frontend Developer",
-    "skills_required": ["html", "css", "javascript", "react"],
-    "description": "UI developer needed with React and JS expertise."
+    "title": "Safety Officer (Aviation)",
+    "qualification": "B.Sc. Aviation + Safety Management ",
+    "skills_required": ["Risk assessment", "Incident reporting", "Compliance"],
+    "description": "",
+    "experience": "5 years at Bangalore Airport in Safety Management",
+    "certifications": ["IOSA Auditor Certification"]
   },
   {
     "id": 3,
-    "title": "Full Stack Developer",
-    "skills_required": ["java", "react", "sql", "spring boot"],
-    "description": "Work on both backend and frontend of enterprise applications."
+    "title": "Commercial Pilot",
+    "qualification": "CPL - Indira Gandhi Institute of Aviation Technology",
+    "skills_required": [
+      "Flight planning",
+      "Navigation",
+      "Decision-making",
+      "CRM"
+    ],
+    "description": "",
+    "experience": "Over 1200 flight hours on Airbus A320 with Indigo Airlines",
+    "certifications": ["DGCA Commercial Pilot License", "Instrument Rating"]
   },
   {
     "id": 4,
-    "title": "Python Developer",
-    "skills_required": ["python", "django", "rest api", "postgresql"],
-    "description": "Developer with Django framework experience preferred."
+    "title": "Aviation Meteorologist",
+    "qualification": "MSc in Meteorology, BHU",
+    "skills_required": [
+      "Weather forecasting",
+      "Radar systems",
+      "Aviation-specific predictions"
+    ],
+    "description": "",
+    "experience": "3 years at IMD providing aviation weather briefings",
+    "certifications": ["WMO Certified Aviation Forecaster"]
   },
   {
     "id": 5,
-    "title": "Android Developer",
-    "skills_required": ["java", "kotlin", "android sdk", "firebase"],
-    "description": "Create and maintain Android mobile applications."
+    "title": "Airport Operations Manager",
+    "qualification": "MBA in Airport Management, IITTM Gwalior",
+    "skills_required": [
+      "Staff coordination",
+      "Safety",
+      "Customer service",
+      "Airport systems"
+    ],
+    "description": "Manage terminal and ground operations, coordinate with stakeholders including security and airlines, and ensure smooth passenger flow and emergency preparedness.",
+    "experience": "7 years managing terminal operations at Delhi Airport (GMR)",
+    "certifications": ["Airport Management Certification - IATA"]
   },
   {
     "id": 6,
-    "title": "iOS Developer",
-    "skills_required": ["swift", "xcode", "ios sdk", "firebase"],
-    "description": "iOS developer with experience in Swift required."
+    "title": "Cabin Crew / Flight Attendant",
+    "qualification": "Diploma in Aviation and Hospitality, Frankfinn Institute",
+    "skills_required": [
+      "Customer service",
+      "Safety procedures",
+      "First aid",
+      "Communication"
+    ],
+    "description": "Ensure safety and comfort of passengers during flights. Conduct safety demonstrations, handle in-flight emergencies, and deliver exceptional service on board.",
+    "experience": "3 years with Air India on domestic and Gulf routes",
+    "certifications": ["DGCA SEP Training", "First Aid & CPR"]
   },
   {
     "id": 7,
-    "title": "DevOps Engineer",
-    "skills_required": ["aws", "docker", "kubernetes", "jenkins"],
-    "description": "Automation and CI/CD pipeline development using cloud technologies."
+    "title": "Air Traffic Controller",
+    "qualification": "B.Sc. in Aviation, ATC Certification from AAI Training Institute",
+    "skills_required": [
+      "Radar operation",
+      "Multitasking",
+      "Decision-making",
+      "Communication"
+    ],
+    "description": "Direct aircraft during takeoff, landing, and en-route operations using radar systems. Ensure safe distances between aircraft and manage real-time communication with pilots.",
+    "experience": "3 years as ATC Officer at Mumbai International Airport",
+    "certifications": ["ATC Certification (India)"]
   },
   {
     "id": 8,
-    "title": "Machine Learning Engineer",
-    "skills_required": ["python", "tensorflow", "scikit-learn", "pandas"],
-    "description": "Develop and deploy ML models using Python."
+    "title": "Aircraft Maintenance Engineer (AME)",
+    "qualification": "AME License, DGCA Certified – Rajiv Gandhi Aviation Academy",
+    "skills_required": ["Troubleshooting", "Aircraft systems", "Documentation"],
+    "description": "Perform B1/B2 category checks and inspections on aircraft. Troubleshoot electrical, mechanical, and hydraulic systems to ensure airworthiness and compliance.",
+    "experience": "5 years at AirWorks India maintaining Airbus A320 and Boeing 737",
+    "certifications": ["DGCA AME License (B1/B2)", "Safety Management Systems"]
   },
   {
     "id": 9,
-    "title": "Data Analyst",
-    "skills_required": ["sql", "excel", "tableau", "python"],
-    "description": "Analyze datasets to provide business insights."
+    "title": "Aircraft Dispatcher",
+    "qualification": "Diploma in Flight Dispatch, CAE Oxford",
+    "skills_required": [
+      "Flight planning",
+      "Weather analysis",
+      "ATC coordination"
+    ],
+    "description": "Plan domestic and international flights ensuring legal and fuel compliance. Coordinate with pilots and ATC, and prepare dispatch releases and route alternatives.",
+    "experience": "3 years with GoAir as certified dispatcher",
+    "certifications": ["DGCA Aircraft Dispatcher Certificate"]
   },
   {
     "id": 10,
-    "title": "Data Engineer",
-    "skills_required": ["python", "spark", "aws", "hadoop"],
-    "description": "Build and manage scalable data pipelines."
+    "title": "Flight Scheduler / Planner",
+    "qualification": "Bachelors in Aviation & Logistics",
+    "skills_required": [
+      "Scheduling",
+      "Logistics",
+      "Time management",
+      "Software tools"
+    ],
+    "description": "Optimize aircraft and crew schedules to enhance resource utilization and minimize delays. Maintain accurate records of flight movements and on-ground activities.",
+    "experience": "3 years with SpiceJet in flight scheduling",
+    "certifications": ["Crew Management System (CMS) Certification"]
   },
   {
     "id": 11,
-    "title": "QA Engineer",
-    "skills_required": ["selenium", "java", "testng", "jira"],
-    "description": "Automation testing with Selenium required."
+    "title": "Aviation Safety Compliance Officer",
+    "qualification": "B.Sc. Aviation + Safety Management Certification",
+    "skills_required": [
+      "Audit compliance",
+      "DGCA regulations",
+      "SMS coordination"
+    ],
+    "description": "Ensure airport operations comply with safety regulations and conduct internal audits. Interface with regulatory bodies like DGCA and prepare safety documentation.",
+    "experience": "5+ years in safety monitoring roles at major Indian airports",
+    "certifications": ["IOSA Auditor Certification"]
   },
   {
     "id": 12,
-    "title": "Cybersecurity Analyst",
-    "skills_required": ["network security", "siem", "firewall", "linux"],
-    "description": "Monitor and prevent threats in enterprise networks."
+    "title": "Senior Meteorologist Aviation",
+    "qualification": "MSc in Meteorology, recognized university",
+    "skills_required": [
+      "Forecast modeling",
+      "Airport-specific reports",
+      "Weather radar"
+    ],
+    "description": "Lead aviation meteorology team delivering TAF/METAR, weather briefings, and severe weather alerts. Collaborate with pilots and ATC to optimize flight safety.",
+    "experience": "4+ years in aviation weather services with government or airline",
+    "certifications": ["WMO Certified Aviation Forecaster"]
   },
   {
     "id": 13,
-    "title": "Cloud Engineer",
-    "skills_required": ["aws", "azure", "terraform", "linux"],
-    "description": "Cloud infrastructure management and automation."
+    "title": "Junior Avionics Technician",
+    "qualification": "Diploma in Avionics or Electronics",
+    "skills_required": [
+      "Soldering",
+      "Circuit diagnostics",
+      "Test equipment handling"
+    ],
+    "description": "Assist in routine inspection, wiring, and repair of onboard avionics. Work under supervision to maintain systems like transponders and navigation aids.",
+    "experience": "1-2 years internship or technician experience preferred",
+    "certifications": ["AME License (trainee or in-progress)"]
   },
   {
     "id": 14,
-    "title": "UI/UX Designer",
-    "skills_required": ["figma", "adobe xd", "html", "css"],
-    "description": "Design intuitive interfaces for web and mobile."
+    "title": "Cabin Safety Trainer",
+    "qualification": "Diploma in Aviation and Hospitality",
+    "skills_required": [
+      "Safety drills",
+      "Training delivery",
+      "Emergency procedures"
+    ],
+    "description": "Conduct safety and first-aid training sessions for new cabin crew. Maintain DGCA compliance and refreshers for in-service flight attendants.",
+    "experience": "3+ years as senior flight attendant or safety instructor",
+    "certifications": ["DGCA SEP Training", "CPR Certified"]
   },
   {
     "id": 15,
-    "title": "React Developer",
-    "skills_required": ["javascript", "react", "redux", "html"],
-    "description": "Front-end development using React and Redux."
+    "title": "Crew Scheduling Officer",
+    "qualification": "Bachelor’s in Aviation or HR",
+    "skills_required": ["Rostering", "Time tracking", "Conflict resolution"],
+    "description": "Manage crew assignments and duty time logs using CMS tools. Ensure adherence to DGCA flight time limitations and rest rules.",
+    "experience": "2+ years in aviation crew scheduling",
+    "certifications": ["Crew Management System (CMS) Certified"]
   },
   {
     "id": 16,
-    "title": "Angular Developer",
-    "skills_required": ["angular", "typescript", "rxjs", "html"],
-    "description": "Develop frontend using Angular framework."
-  },
-  {
-    "id": 17,
-    "title": "Backend Developer",
-    "skills_required": ["node.js", "express", "mongodb", "javascript"],
-    "description": "Develop backend services using Node.js."
-  },
-  {
-    "id": 18,
-    "title": "Project Manager",
-    "skills_required": ["agile", "scrum", "jira", "communication"],
-    "description": "Manage software projects and coordinate with teams."
-  },
-  {
-    "id": 19,
-    "title": "Tech Support Engineer",
-    "skills_required": ["troubleshooting", "linux", "windows", "sql"],
-    "description": "Provide technical support to end-users and clients."
-  },
-  {
-    "id": 20,
-    "title": "Salesforce Developer",
-    "skills_required": ["apex", "salesforce", "visualforce", "soql"],
-    "description": "Develop custom Salesforce solutions."
-  },
-  {
-    "id": 21,
-    "title": "Business Analyst",
-    "skills_required": ["requirement gathering", "uml", "sql", "communication"],
-    "description": "Bridge gap between business and technical teams."
-  },
-  {
-    "id": 22,
-    "title": "Database Administrator",
-    "skills_required": ["mysql", "oracle", "sql", "performance tuning"],
-    "description": "Manage and optimize databases."
-  },
-  {
-    "id": 23,
-    "title": "WordPress Developer",
-    "skills_required": ["php", "wordpress", "html", "css"],
-    "description": "Customize WordPress websites and themes."
-  },
-  {
-    "id": 24,
-    "title": "Game Developer",
-    "skills_required": ["unity", "c#", "blender", "game design"],
-    "description": "Build 2D and 3D games for multiple platforms."
-  },
-  {
-    "id": 25,
-    "title": "System Administrator",
-    "skills_required": ["linux", "shell scripting", "networking", "windows"],
-    "description": "Maintain servers and IT infrastructure."
-  },
-  {
-    "id": 26,
-    "title": "AI Engineer",
-    "skills_required": ["python", "nlp", "keras", "deep learning"],
-    "description": "Develop AI models for NLP applications."
-  },
-  {
-    "id": 27,
-    "title": "Blockchain Developer",
-    "skills_required": ["solidity", "ethereum", "smart contracts", "web3.js"],
-    "description": "Develop decentralized apps and smart contracts."
-  },
-  {
-    "id": 28,
-    "title": "Technical Writer",
-    "skills_required": ["documentation", "markdown", "git", "api"],
-    "description": "Write and maintain technical documentation."
-  },
-  {
-    "id": 29,
-    "title": "Network Engineer",
-    "skills_required": ["ccna", "routing", "switching", "firewall"],
-    "description": "Setup and troubleshoot network configurations."
-  },
-  {
-    "id": 30,
-    "title": "PHP Developer",
-    "skills_required": ["php", "laravel", "mysql", "html"],
-    "description": "Backend development using PHP and Laravel."
-  },
-  {
-    "id": 31,
-    "title": "Flutter Developer",
-    "skills_required": ["flutter", "dart", "firebase", "android"],
-    "description": "Cross-platform mobile application development."
-  },
-  {
-    "id": 32,
-    "title": "ETL Developer",
-    "skills_required": ["informatica", "sql", "data warehouse", "etl"],
-    "description": "Design and implement ETL workflows."
-  },
-  {
-    "id": 33,
-    "title": "Scrum Master",
-    "skills_required": ["scrum", "agile", "jira", "facilitation"],
-    "description": "Lead Agile ceremonies and remove team blockers."
-  },
-  {
-    "id": 34,
-    "title": "SEO Specialist",
-    "skills_required": ["seo", "google analytics", "semrush", "html"],
-    "description": "Optimize websites for better search rankings."
-  },
-  {
-    "id": 35,
-    "title": "Penetration Tester",
+    "title": "Flight Operations Assistant",
+    "qualification": "Diploma in Aviation Management",
     "skills_required": [
-      "burp suite",
-      "kali linux",
-      "network security",
-      "python"
+      "Flight coordination",
+      "Documentation",
+      "Regulatory awareness"
     ],
-    "description": "Identify and exploit vulnerabilities in systems."
-  },
-  {
-    "id": 36,
-    "title": "Content Writer",
-    "skills_required": ["seo", "writing", "wordpress", "creativity"],
-    "description": "Write engaging content for websites and blogs."
-  },
-  {
-    "id": 37,
-    "title": "Software Architect",
-    "skills_required": [
-      "design patterns",
-      "architecture",
-      "cloud",
-      "microservices"
-    ],
-    "description": "Define architecture and technical standards."
-  },
-  {
-    "id": 38,
-    "title": "Game Tester",
-    "skills_required": [
-      "bug reporting",
-      "gameplay testing",
-      "jira",
-      "attention to detail"
-    ],
-    "description": "Test game mechanics and report issues."
-  },
-  {
-    "id": 39,
-    "title": "Embedded Systems Engineer",
-    "skills_required": ["c", "c++", "embedded linux", "microcontrollers"],
-    "description": "Develop firmware for embedded devices."
-  },
-  {
-    "id": 40,
-    "title": "Data Scientist",
-    "skills_required": ["python", "machine learning", "sql", "matplotlib"],
-    "description": "Analyze and model data to drive insights."
+    "description": "Support flight operations by preparing dispatch packets, coordinating with ATC, and verifying weather and fuel reports before takeoff.",
+    "experience": "1-3 years assisting dispatch or flight ops team",
+    "certifications": ["DGCA Ground Handling Certification preferred"]
   }
 ]

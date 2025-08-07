@@ -99,9 +99,22 @@
     <h1>Upload Your Resume</h1>
 
     <form action="/upload" method="POST" enctype="multipart/form-data">
-      <input type="file" name="resume" accept=".pdf,.docx" required />
+      <input type="file" name="resume" accept=".pdf,.docx,.doc" required />
       <br />
       <button type="submit">Upload</button>
+    </form>
+
+    <h2>Or Paste Resume URL</h2>
+    <form action="/upload_url" method="POST">
+      <input
+        type="url"
+        name="resume_url"
+        placeholder="https://example.com/resume.pdf"
+        required
+        style="padding: 10px; width: 100%"
+      />
+      <br />
+      <button type="submit">Submit URL</button>
     </form>
 
     <h2>All Available Job Postings</h2>
@@ -110,11 +123,13 @@
       {% for job in all_jobs %}
       <div class="job-card">
         <h3>{{ job.title }}</h3>
+        <p><strong>Description:</strong> {{ job.description }}</p>
         <p>
           <strong>Skills Required:</strong> {{ job.skills_required | join(', ')
           }}
         </p>
-        <p><strong>Description:</strong> {{ job.description }}</p>
+        <p><strong>Qualification</strong>{{job.qualification}}</p>
+        <p><strong>Experience</strong>{{job.experience}}</p>
       </div>
       {% endfor %}
     </div>
